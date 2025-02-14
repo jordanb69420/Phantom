@@ -8,7 +8,6 @@
     <meta property="og:image" content="">
     <link rel="stylesheet" href="./assets/index.css">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.2/css/bootstrap.min.css'>
-	  <!-- <link rel="stylesheet" href="./assets/bootstrap.min.css"> -->
     <link rel="shortcut icon" href="./assets/icon.png" type="image/x-icon">
     <style>
         @font-face {
@@ -145,7 +144,7 @@
         }
 
         #intro {
-            padding: 140px 0 80px 0;
+            padding: 100px 0 80px 0;
             justify-content: center; /* Center content vertically */
             text-align: center; /* Center text alignment */
             background-image: url('./assets/background.png');
@@ -176,7 +175,7 @@
             color: #ffffff;
             text-align: center;
             margin-bottom: 25px;
-            width: 80%; /* More compact */
+            width: 80%;
             margin-left: auto;
             margin-right: auto;
         }
@@ -187,13 +186,13 @@
         }
 
         .author-block a {
-            color: #ffffff; /* Lighter color for links */
+            color: #ffffff;
             text-decoration: none;
             transition: color 0.3s ease;
         }
 
         .author-block a:hover {
-            color: #fff; /* Hover effect */
+            color: #fff;
         }
 
         .author-affiliation {
@@ -248,7 +247,7 @@
         .bibtex-section h3 {
             font-size: 24px;
             font-weight: 400;
-            color: #fff;
+            color: #ccc;
             margin-bottom: 20px;
         }
 
@@ -359,7 +358,7 @@
 
         .loading-text {
             font-size: 24px;
-            margin-bottom: 10px; /* Adds space between text and icon */
+            margin-bottom: 10px;
         }
 
         .loading-icon {
@@ -392,10 +391,10 @@
         }
 
         .chinese {
-            font-family: 'Noto Sans SC', sans-serif; /* Choose a Chinese font */
+            font-family: 'Noto Sans SC', sans-serif;
             font-weight: bold;
-            color: #d18585; /* A strong red */
-            font-size: 1.1em; /* Slightly larger */
+            color: #d18585;
+            font-size: 1.1em;
         }
 
         @media (hover: hover) {
@@ -492,10 +491,10 @@
         }
 
         #title-icon {
-          height: 8em; /* Adjust to match the font size of the title */
-          width: auto; /* Maintain aspect ratio */
-          margin-right: 0px; /* Space between icon and title */
-          vertical-align: middle; /* Align with the text */
+          height: 8em;
+          width: auto;
+          margin-right: 0px;
+          vertical-align: middle;
         }
 
         .title-art {
@@ -510,19 +509,27 @@
           font-family: 'Alegreya', sans-serif;
         }
 
-        /* Increase font size for h2 elements */
         h2 {
-            font-size: 2.5em; /* Adjust this value as needed */
-            color: rgb(255, 255, 255); /* 使副标题颜色更深 */
-            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* 添加阴影以提高可读性 */
+            font-size: 2.5em;
+            color: rgb(255, 255, 255);
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
         }
 
         #video-wrapper {
           border-radius: 50px;
-          max-width: 720px; /* 设置你想要的最大宽度 */
+          max-width: 720px;
           padding-bottom: 40%; 
-          margin: 0 auto; /* 使视频居中 */
+          margin: 0 auto;
           background: #000000;
+        }
+
+        .ethics-section {
+            padding: 100px 10%;
+            text-align: center;
+            margin-top: 60px;
+            color: #ccc;
+            max-width: 1500px;
+            margin: 0 auto;
         }
 
     </style>
@@ -566,6 +573,7 @@
 
     <div class="container text-center" style="margin-top: 50px; text-align: center;">
       <p class="title-art3" style="font-size: 1.6em;"> Episodes Created from Phantom-generated Videos</p>
+      <p class="description" style="font-size: 1.0em;"> Turn on the sound for a better viewing experience</p>
     </div>
     
 
@@ -576,8 +584,8 @@
             <div id="video-wrapper" style="position: relative; width: 100%; height: 0;">
               <video class="carousel-video" src="./assets/videos/demo/demo1.mp4" playsinline controls style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 2vmin; background: #2f2f30;"></video>
             </div>
-            <div id="text-prompt-set-1" class="responsive-text-prompt" style="font-family: Chalkduster; font-size: 12px; color: white; margin-top:10px; margin-bottom:10px;">
-              There has always been a mysterious legend about the Paris Opera House. Some say that in the darkness, there lives a scary-looking "Angel of Music"... 
+            <div id="text-prompt-set-1" class="responsive-text-prompt" style="font-family: Chalkduster; font-size: 14px; color: white; margin-top:10px; margin-bottom:10px;">
+                The New Phantom of the Opera
             </div>
           </div>
         </div>
@@ -587,8 +595,8 @@
             <div id="video-wrapper" style="position: relative; width: 100%; height: 0;">
               <video class="carousel-video" src="./assets/videos/demo/demo2.mp4" playsinline controls style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 2vmin; background: #2f2f30;"></video>
             </div>
-            <div id="text-prompt-set-2" class="responsive-text-prompt" style="font-family: Chalkduster; font-size: 12px; color: white; margin-top:10px; margin-bottom:10px;">
-              kongbu
+            <div id="text-prompt-set-2" class="responsive-text-prompt" style="font-family: Chalkduster; font-size: 14px; color: white; margin-top:10px; margin-bottom:10px;">
+                The New Annabelle
             </div>
           </div>
         </div>
@@ -598,8 +606,8 @@
             <div id="video-wrapper" style="position: relative; width: 100%; height: 0;">
               <video class="carousel-video" src="./assets/videos/demo/demo3.mp4" playsinline controls style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 2vmin; background: #2f2f30;"></video>
             </div>
-            <div id="text-prompt-set-3" class="responsive-text-prompt" style="font-family: Chalkduster; font-size: 12px; color: white; margin-top:10px; margin-bottom:10px;">
-              zhizhuxia
+            <div id="text-prompt-set-3" class="responsive-text-prompt" style="font-family: Chalkduster; font-size: 14px; color: white; margin-top:10px; margin-bottom:10px;">
+                The New Spider-Man
             </div>
           </div>
         </div>
@@ -609,8 +617,8 @@
               <div id="video-wrapper" style="position: relative; width: 100%; height: 0;">
                 <video class="carousel-video" src="./assets/videos/demo/demo4.mp4" playsinline controls style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 2vmin; background: #2f2f30;"></video>
               </div>
-              <div id="text-prompt-set-3" class="responsive-text-prompt" style="font-family: Chalkduster; font-size: 12px; color: white; margin-top:10px; margin-bottom:10px;">
-                nezha
+              <div id="text-prompt-set-3" class="responsive-text-prompt" style="font-family: Chalkduster; font-size: 14px; color: white; margin-top:10px; margin-bottom:10px;">
+                The New Ne Zha
               </div>
             </div>
         </div>
@@ -630,12 +638,11 @@
 
 
     <section id="video">
-        <div class="title" style="font-family: 'Alegreya';">
+        <div class="title" style="font-family: 'Alegreya'; font-size: 1.6em;">
           Identity Preserving Video Generation
         </div>
         <div class="description">
-            We present a collection of video generation demos created using the Goku model.
-            For a fair comparison, we use the original MovieGenBench prompts without any modifications.
+            Text-to-video generation using facial images as reference subject. Our method can strictly preserve the identity of the reference face while generating vivid videos that follow the provided prompt.
         </div>
         
         <div class="flex flex-dynamic">
@@ -668,9 +675,17 @@
                     <div class="loading-text">Loading...</div>
                     <div class="loading-icon">&#9749</div>
                 </div>
+                <video autoplay playsinline muted loop onloadeddata="this.style.display='block'; this.previousElementSibling.style.display='none';" src="./assets/videos/id/9_ref.mov"></video>
+                <div class="prompt">A woman dressed in elegant court attire, a flowing gown, a pearl necklace, and a delicate ivory fan in her gloved hands. She fanned herself slowly, her movements graceful and deliberate. The background was a grand European castle hall, with a huge domed ceiling, smooth marble floors, and exquisite tables, chairs, and candlesticks, emitting soft and warm lighting.</div>
+            </div>
+            <!-- <div class="prompt-wrap full-screen-wrap" style="position: relative;">
+                <div class="loading-placeholder">
+                    <div class="loading-text">Loading...</div>
+                    <div class="loading-icon">&#9749</div>
+                </div>
                 <video autoplay playsinline muted loop onloadeddata="this.style.display='block'; this.previousElementSibling.style.display='none';" src="./assets/videos/id/3_ref.mov"></video>
                 <div class="prompt">A woman with straight, shoulder-length black hair stands by a fireplace in a spacious living room. She is dressed in a red, knee-length dress with a thin black belt that accentuates her waist. The background features a cozy setup with a roaring fire, a dark wood mantle, and several elegant picture frames. A large, plush armchair and a few books on a side table add to the comfortable setting. She gently adjusts a strand of hair behind her ear, creating a serene and contemplative mood in the scene.</div>
-            </div>
+            </div> -->
             <div class="prompt-wrap full-screen-wrap" style="position: relative;">
                 <div class="loading-placeholder">
                     <div class="loading-text">Loading...</div>
@@ -711,19 +726,11 @@
                 <video autoplay playsinline muted loop onloadeddata="this.style.display='block'; this.previousElementSibling.style.display='none';" src="./assets/videos/id/8_ref.mov"></video>
                 <div class="prompt">A refined cellist with sleek, chestnut hair sits center stage in an elegant orchestra pit. She wears a floor-length, cobalt blue dress that contrasts beautifully with the golden wood of her cello. The background is filled with crimson curtains, opulent antique decor, and fellow musicians absorbed in their instruments. Her bow hand moves with grace and precision, her head gently swaying with the melancholic melody, creating an atmosphere of profound and moving beauty.</div>
             </div>
-            <div class="prompt-wrap full-screen-wrap" style="position: relative;">
-                <div class="loading-placeholder">
-                    <div class="loading-text">Loading...</div>
-                    <div class="loading-icon">&#9749</div>
-                </div>
-                <video autoplay playsinline muted loop onloadeddata="this.style.display='block'; this.previousElementSibling.style.display='none';" src="./assets/videos/id/9_ref.mov"></video>
-                <div class="prompt">A woman dressed in elegant court attire, a flowing gown, a pearl necklace, and a delicate ivory fan in her gloved hands. She fanned herself slowly, her movements graceful and deliberate. The background was a grand European castle hall, with a huge domed ceiling, smooth marble floors, and exquisite tables, chairs, and candlesticks, emitting soft and warm lighting.</div>
-            </div>
         </div>
     </section>
 
     <section id="video">
-      <div class="title" style="font-family: 'Alegreya';">
+      <div class="title" style="font-family: 'Alegreya'; font-size: 1.6em;">
         Single Subject Preserving Video Generation
       </div>
 
@@ -769,71 +776,8 @@
       </div>
   </section>
 
-    <!-- 
-    <section class="portrait">
-        <div class="title" style="font-family: 'Alegreya';">
-          Single Subject Preserving Video Generation
-        </div>
-
-        <div class="description">
-            Goku+ produces realistic and highly engaging videos tailored to showcase specific products. These videos effectively capture the essence of the products, boosting viewer engagement and interest.
-        </div>
-
-        <div class="flex flex-dynamic">
-
-            <div class="prompt-wrap full-screen-wrap" style="position: relative;">
-                <div class="loading-placeholder">
-                    <div class="loading-text">Loading...</div>
-                    <div class="loading-icon">&#9749</div>
-                </div>
-                <video autoplay playsinline muted loop onloadeddata="this.style.display='block'; this.previousElementSibling.style.display='none';" src="./assets/videos/Human-interaction/1.mp4"></video>
-                <div class="prompt">The model gazes gracefully out the window, her elegant smile accentuating the sparkle of the bracelet on her wrist. As she gently turns her head, the sunlight catches the bracelet, creating a dazzling effect.</div>
-            </div>
-            <div class="prompt-wrap full-screen-wrap" style="position: relative;">
-                <div class="loading-placeholder">
-                    <div class="loading-text">Loading...</div>
-                    <div class="loading-icon">&#9749</div>
-                </div>
-                <video autoplay playsinline muted loop onloadeddata="this.style.display='block'; this.previousElementSibling.style.display='none';" src="./assets/videos/Human-interaction/2.mp4"></video>
-                <div class="prompt">The woman, dressed in a floral dress and denim jacket, walks gracefully forward, her hair gently swaying in the breeze. The camera captures her steady approach, focusing on the movement of her hair and the falling leaves, enhancing the serene autumn atmosphere.</div>
-            </div>
-            <div class="prompt-wrap full-screen-wrap" style="position: relative;">
-                <div class="loading-placeholder">
-                    <div class="loading-text">Loading...</div>
-                    <div class="loading-icon">&#9749</div>
-                </div>
-                <video autoplay playsinline muted loop onloadeddata="this.style.display='block'; this.previousElementSibling.style.display='none';" src="./assets/videos/Human-interaction/3.mp4"></video>
-                <div class="prompt">The model's hand gracefully holds the white bottle of facial cleanser, presenting it to the camera. As the camera slowly zooms in, the model gently rotates the bottle, showcasing its sleek design and smooth surface. The soft lighting highlights the model's perfectly manicured nails, adding elegance to the presentation. The video concludes with a close-up of the bottle, emphasizing its clean and minimalist aesthetic.</div>
-            </div>
-            <div class="prompt-wrap full-screen-wrap" style="position: relative;">
-                <div class="loading-placeholder">
-                    <div class="loading-text">Loading...</div>
-                    <div class="loading-icon">&#9749</div>
-                </div>
-                <video autoplay playsinline muted loop onloadeddata="this.style.display='block'; this.previousElementSibling.style.display='none';" src="./assets/videos/Human-interaction/6.mp4"></video>
-                <div class="prompt">The model gracefully steps forward and backward, showcasing the stylish blue boots on a brick pavement. The camera smoothly pans up and down, capturing the texture and design of the boots with each step. The model's movements are fluid, emphasizing the comfort and elegance of the footwear.</div>
-            </div>
-            <div class="prompt-wrap full-screen-wrap" style="position: relative;">
-                <div class="loading-placeholder">
-                    <div class="loading-text">Loading...</div>
-                    <div class="loading-icon">&#9749</div>
-                </div>
-                <video autoplay playsinline muted loop onloadeddata="this.style.display='block'; this.previousElementSibling.style.display='none';" src="./assets/videos/Human-interaction/4.mp4"></video>
-                <div class="prompt">The woman stands behind a colorful Minnie Mouse product, her head gently swaying left and right as she speaks animatedly. Her hands rest on the table, framing the product, while her mouth opens and closes with noticeable emphasis, conveying her enthusiasm and detailed explanation. The camera remains steady, capturing her expressive gestures and the vibrant design of the product in front of her.</div>
-            </div>
-            <div class="prompt-wrap full-screen-wrap" style="position: relative;">
-                <div class="loading-placeholder">
-                    <div class="loading-text">Loading...</div>
-                    <div class="loading-icon">&#9749</div>
-                </div>
-                <video autoplay playsinline muted loop onloadeddata="this.style.display='block'; this.previousElementSibling.style.display='none';" src="./assets/videos/Human-interaction/7.mp4"></video>
-                <div class="prompt">The man stands behind a table with three colorful bottles labeled ""Sngo 护衣留香珠"" in front of him. He gestures towards each bottle, explaining their features and benefits. His hands move smoothly as he points to the pink, yellow, and green-topped bottles, emphasizing their unique scents. The camera remains steady, capturing his detailed presentation and the vibrant packaging of the products.</div>
-            </div>
-        </div> 
-    </section> -->
-
     <section id="multi_ip">
-        <div class="title" style="font-family: 'Alegreya';">
+        <div class="title" style="font-family: 'Alegreya'; font-size: 1.6em;">
           Multi-subject Preserving Video Generation
         </div>
 
@@ -934,10 +878,18 @@
         </div>
     </section>
 
+    <section class="ethics-section">
+        <h3>Ethics Concerns</h3>
+        <p>
+            The images used in these demos are sourced from public domains or generated by models, and are intended solely to showcase the capabilities of this research. If you have any concerns, please contact us at tianxiang.ma@bytedance.com, and we will promptly remove them.
+        </p>
+    </section>
+
+
     <section class="bibtex-section">
         <h3>BibTeX</h3>
         <pre class="bibtex-code">@article{liu2025phantom,
-          title={Phantom: Subject-consistent video generation via cross-modal alignment},
+          title={Phantom: Subject-Consistent Video Generation via Cross-Modal Alignment},
           author={Liu, Lijie and Ma, Tianxaing and Li, Bingchuan and Chen, Zhuowei and Liu, Jiawei and He, Qian and Wu, Xinglong},
           journal={arXiv preprint arXiv:2502.04896},
           year={2025}
