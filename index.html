@@ -631,7 +631,7 @@
           Identity Preserving Video Generation
         </div>
         <div class="description">
-            Text-to-video generation using facial images as reference subject. Our method can strictly preserve the identity of the reference face while generating vivid videos that follow the provided prompt.
+            Subject-to-video generation using a facial reference image. <em><strong>Phantom</strong></em> strictly preserves the identity of the reference face while generating vivid videos that follow the provided prompt.
         </div>
         
         <div class="flex flex-dynamic">
@@ -667,14 +667,7 @@
                 <video autoplay playsinline muted loop onloadeddata="this.style.display='block'; this.previousElementSibling.style.display='none';" src="./assets/videos/id/9_ref.mov"></video>
                 <div class="prompt">A woman dressed in elegant court attire, a flowing gown, a pearl necklace, and a delicate ivory fan in her gloved hands. She fanned herself slowly, her movements graceful and deliberate. The background was a grand European castle hall, with a huge domed ceiling, smooth marble floors, and exquisite tables, chairs, and candlesticks, emitting soft and warm lighting.</div>
             </div>
-            <!-- <div class="prompt-wrap full-screen-wrap" style="position: relative;">
-                <div class="loading-placeholder">
-                    <div class="loading-text">Loading...</div>
-                    <div class="loading-icon">&#9749</div>
-                </div>
-                <video autoplay playsinline muted loop onloadeddata="this.style.display='block'; this.previousElementSibling.style.display='none';" src="./assets/videos/id/3_ref.mov"></video>
-                <div class="prompt">A woman with straight, shoulder-length black hair stands by a fireplace in a spacious living room. She is dressed in a red, knee-length dress with a thin black belt that accentuates her waist. The background features a cozy setup with a roaring fire, a dark wood mantle, and several elegant picture frames. A large, plush armchair and a few books on a side table add to the comfortable setting. She gently adjusts a strand of hair behind her ear, creating a serene and contemplative mood in the scene.</div>
-            </div> -->
+            
             <div class="prompt-wrap full-screen-wrap" style="position: relative;">
                 <div class="loading-placeholder">
                     <div class="loading-text">Loading...</div>
@@ -720,11 +713,11 @@
 
     <section id="video">
       <div class="title" style="font-family: 'Alegreya'; font-size: 1.6em;">
-        Single Subject Preserving Video Generation
+        Single Reference Subject-to-Video Generation 
       </div>
 
       <div class="description">
-        Text-to-video generation using single images as reference subject. Our method can maintain the integrity of various types of subjects, including objects, clothing, animals, virtual characters, and more.
+        Subject-to-video generation using a single reference image. <em><strong>Phantom</strong></em> can maintain the integrity of various types of subjects, including objects, clothing, animals, virtual characters, and more.
       </div>
 
       <div class="flex flex-dynamic">
@@ -767,11 +760,11 @@
 
     <section id="multi_ip">
         <div class="title" style="font-family: 'Alegreya'; font-size: 1.6em;">
-          Multi-subject Preserving Video Generation
+            Multi-Reference Subject-to-Video Generation
         </div>
 
         <div class="description">
-            description
+            Subject-to-video generation using multiple reference images. <em><strong>Phantom</strong></em> can achieve realistic interactions between multiple subjects, such as group interactions, human-pet interactions, product demonstrations, virtual try-ons, and more
         </div>
 
         <div class="flex flex-dynamic">
@@ -782,7 +775,7 @@
                     <div class="loading-icon">&#9749</div>
                 </div>
                 <video autoplay playsinline muted loop onloadeddata="this.style.display='block'; this.previousElementSibling.style.display='none';" src="./assets/videos/multi_ip/0.mp4"></video>
-                <div class="prompt">Food & Snack.</div>
+                <div class="prompt">caption.</div>
             </div>
             <div class="prompt-wrap full-screen-wrap" style="position: relative;">
                 <div class="loading-placeholder">
@@ -790,7 +783,7 @@
                     <div class="loading-icon">&#9749</div>
                 </div>
                 <video autoplay playsinline muted loop onloadeddata="this.style.display='block'; this.previousElementSibling.style.display='none';" src="./assets/videos/multi_ip/1.mp4"></video>
-                <div class="prompt">Fashion & Cloth</div>
+                <div class="prompt">caption.</div>
             </div>
             <div class="prompt-wrap full-screen-wrap" style="position: relative;">
                 <div class="loading-placeholder">
@@ -798,7 +791,7 @@
                     <div class="loading-icon">&#9749</div>
                 </div>
                 <video autoplay playsinline muted loop onloadeddata="this.style.display='block'; this.previousElementSibling.style.display='none';" src="./assets/videos/multi_ip/2.mp4"></video>
-                <div class="prompt">Product Display</div>
+                <div class="prompt">caption.</div>
             </div>
             <div class="prompt-wrap full-screen-wrap" style="position: relative;">
                 <div class="loading-placeholder">
@@ -806,7 +799,7 @@
                     <div class="loading-icon">&#9749</div>
                 </div>
                 <video autoplay playsinline muted loop onloadeddata="this.style.display='block'; this.previousElementSibling.style.display='none';" src="./assets/videos/multi_ip/3.mp4"></video>
-                <div class="prompt">FMCG</div>
+                <div class="prompt">caption.</div>
             </div>
             <div class="prompt-wrap full-screen-wrap" style="position: relative;">
               <div class="loading-placeholder">
@@ -814,7 +807,7 @@
                   <div class="loading-icon">&#9749</div>
               </div>
               <video autoplay playsinline muted loop onloadeddata="this.style.display='block'; this.previousElementSibling.style.display='none';" src="./assets/videos/multi_ip/4.mp4"></video>
-              <div class="prompt">FMCG</div>
+              <div class="prompt">caption.</div>
             </div>
             <div class="prompt-wrap full-screen-wrap" style="position: relative;">
               <div class="loading-placeholder">
@@ -822,7 +815,7 @@
                   <div class="loading-icon">&#9749</div>
               </div>
               <video autoplay playsinline muted loop onloadeddata="this.style.display='block'; this.previousElementSibling.style.display='none';" src="./assets/videos/multi_ip/5.mp4"></video>
-              <div class="prompt">FMCG</div>
+              <div class="prompt">caption.</div>
             </div>
             <div class="prompt-wrap full-screen-wrap" style="position: relative;">
               <div class="loading-placeholder">
@@ -830,7 +823,7 @@
                   <div class="loading-icon">&#9749</div>
               </div>
               <video autoplay playsinline muted loop onloadeddata="this.style.display='block'; this.previousElementSibling.style.display='none';" src="./assets/videos/multi_ip/6.mp4"></video>
-              <div class="prompt">FMCG</div>
+              <div class="prompt">caption.</div>
             </div>
             <div class="prompt-wrap full-screen-wrap" style="position: relative;">
               <div class="loading-placeholder">
@@ -838,7 +831,7 @@
                   <div class="loading-icon">&#9749</div>
               </div>
               <video autoplay playsinline muted loop onloadeddata="this.style.display='block'; this.previousElementSibling.style.display='none';" src="./assets/videos/multi_ip/7.mp4"></video>
-              <div class="prompt">FMCG</div>
+              <div class="prompt">caption.</div>
             </div>
             <div class="prompt-wrap full-screen-wrap" style="position: relative;">
               <div class="loading-placeholder">
@@ -846,7 +839,7 @@
                   <div class="loading-icon">&#9749</div>
               </div>
               <video autoplay playsinline muted loop onloadeddata="this.style.display='block'; this.previousElementSibling.style.display='none';" src="./assets/videos/multi_ip/8.mp4"></video>
-              <div class="prompt">FMCG</div>
+              <div class="prompt">caption.</div>
             </div>
             <div class="prompt-wrap full-screen-wrap" style="position: relative;">
               <div class="loading-placeholder">
@@ -854,7 +847,7 @@
                   <div class="loading-icon">&#9749</div>
               </div>
               <video autoplay playsinline muted loop onloadeddata="this.style.display='block'; this.previousElementSibling.style.display='none';" src="./assets/videos/multi_ip/9.mp4"></video>
-              <div class="prompt">FMCG</div>
+              <div class="prompt">caption.</div>
             </div>
             <div class="prompt-wrap full-screen-wrap" style="position: relative;">
               <div class="loading-placeholder">
@@ -862,7 +855,7 @@
                   <div class="loading-icon">&#9749</div>
               </div>
               <video autoplay playsinline muted loop onloadeddata="this.style.display='block'; this.previousElementSibling.style.display='none';" src="./assets/videos/multi_ip/10.mp4"></video>
-              <div class="prompt">FMCG</div>
+              <div class="prompt">caption.</div>
             </div>
         </div>
     </section>
