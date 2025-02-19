@@ -14,6 +14,14 @@
 > <br>Intelligent Creation Team, ByteDance<br>
 
 
+## Comparative Results 🆚
+- **Identity Preserving Video Generation**.
+![image](./assets/images/id_eval.pdf)
+- **Single Reference Subject-to-Video Generation**.
+![image](./assets/images/ip_eval_s.pdf)
+- **Multi-Reference Subject-to-Video Generation**.
+![image](./assets/images/ip_eval_m.pdf)
+
 ## BibTeX
 ```bibtex
 @article{liu2025phantom,
