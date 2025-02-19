@@ -16,11 +16,11 @@
 
 ## Comparative Results 🆚
 - **Identity Preserving Video Generation**.
-![image](./assets/images/id_eval.pdf)
+![image](./assets/images/id_eval.png)
 - **Single Reference Subject-to-Video Generation**.
-![image](./assets/images/ip_eval_s.pdf)
+![image](./assets/images/ip_eval_s.png)
 - **Multi-Reference Subject-to-Video Generation**.
-![image](./assets/images/ip_eval_m.pdf)
+![image](./assets/images/ip_eval_m_00.png)
 
 ## BibTeX
 ```bibtex
